@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <p>
+    6) O custo de um carro novo ao consumidor é a soma do custo de fábrica com a
+    porcentagem do distribuidor e dos impostos (aplicados ao custo de fábrica).
+    Supondo que o percentual do distribuidor seja de 28% e os impostos de 45%,
+    escrever um algoritmo para ler o custo de fábrica de um carro, calcular e
+    escrever o custo final ao consumidor.
+  </p>
+  <script>
+    var n1 = prompt('digite o custo de fabrica ')
+    n1 = parseInt(n1)
+
+    var distribuidor = +(n1 * 28) / 100.0
+    var valorImpostos = (n1 * 45) / 100
+
+    var custoConsumidor = distribuidor + ValorImpostos
+    alert('soma total de impostos e:' + custoConsumidor)
+  </script>
+  <body></body>
+</html>

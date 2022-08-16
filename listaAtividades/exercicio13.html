@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <p>
+    13) Ler as notas da 1a. e 2a. avaliações de um aluno. Calcular a média
+    aritmética simples e escrever uma mensagem que diga se o aluno foi ou não
+    aprovado (considerar que nota igual ou maior que 6 o aluno é aprovado).
+  </p>
+  <body></body>
+  <script>
+    var n1 = prompt('digite a nota 1a.')
+    n1 = parseFloat(n1)
+    var n2 = prompt('digite a nota 2a.')
+    n2 = parseFloat(n2)
+
+    var notafinal = (n1 + n2) /2
+
+    if (notafinal >=6 ){
+      alert('o aluno foi aprovado')
+    }else{
+      alert('o aluno foi reprovado')
+    }
+
+  </script>
+</html>
